@@ -1,26 +1,27 @@
-鄙人it程序员一名，比较爱捣鼓东西，最近呢又出来了一款新的技术框架，关注度还蛮高的，就想着预言项目就搞它了，
-然而技术选型定了，就得有东西（做个什么样的应用）搞，而最近我在培养自己的阅读习惯，面对购买的书籍越来越多，
-发现了这笔财产也缺乏了一个合理化的管理，便想着往这个方向做个小应用供自己使用，哈哈。然而确没有想到给这个
-应用起一个一个很好的名字，一开始和同事描述说是做个图书管理吧。这么一描述自己也觉得low，被她们鄙视了下。唉，
-就在今早呢，应该说已经是正午了！（刚经历一整夜被星巴克一杯超大杯咖啡给刺激地没睡着觉的我）。突然想到一个很不错的名
-字来给我这款小应用命名----**藏书阁**。哈哈，是不是瞬间文化底蕴浓厚了很多！
+# collect-books
 
----
+> A Vue.js project
 
-于是给当前想搞的东西做个整理，主要是技术选型清单，以及大致的框架构思事宜：
+## Build Setup
 
-#### 主要技术资源背景
-后端 
-- nodejs支撑（所实现的是轻应用，负荷能力应该是能够胜任的）
-- mogodb数据库（不需要写很复杂的查询，这个程度文档型数据库也就够用了）
+``` bash
+# install dependencies
+npm install
 
+# serve with hot reload at localhost:8080
+npm run dev
 
-前端
-- vuejs（时下备受前端界关注的技术宠儿，而且还是国人开发，搜寻查看问题时应该不会有代沟了吧！而且又说是综合了react和angular两大名声大噪的前端框架优点），倒也想看看其究竟几何，是否真的名不虚传。
-- bower 前端js库资源包管理工具
-- webpack 前端打包工具
-- github 利用公共资源版本控制工具
+# build for production with minification
+npm run build
 
-作者：perry
-时间：2016年12月4日
-记最近一直思考做什么东西而有了此物！
+# run unit tests
+npm run unit
+
+# run e2e tests
+npm run e2e
+
+# run all tests
+npm test
+```
+
+For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
